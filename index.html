@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><b>CALCULATOR</b></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><h1>CALCULATOR</h1></center>
+        <div id="c">
+            <div id="c1">
+                0
+            </div>
+            <div id="h">
+                <div id="h1">
+                    <button id="o" onclick="display('7')">7</button>
+                    <button id="t" onclick="display('8')">8</button>
+                    <button id="th" onclick="display('9')">9</button>
+                    <button id="fo" onclick="display('/')">/</button>
+                </div>
+                <div id="h2">
+                    <button id="fi" onclick="display('4')">4</button>
+                    <button id="si" onclick="display('5')">5</button>
+                    <button id="se" onclick="display('6')">6</button>
+                    <button id="ei" onclick="display('*')">*</button>
+                </div>
+                <div id="h3">
+                    <button id="ni" onclick="display('1')">1</button>
+                    <button id="ten" onclick="display('2')">2</button>
+                    <button id="ele" onclick="display('3')">3</button>
+                    <button id="twe" onclick="display('-')">-</button>
+                </div>
+                <div id="h4">
+                    <button id="thi" onclick="back()">&larr;</button>
+                    <button id="fou" onclick="display('0')">0</button>
+                    <button id="fif" onclick="display('.')">.</button>
+                    <button id="six" onclick="display('+')">+</button>
+                </div>
+                <div id="h5">
+                    <button id="sev" onclick="clearchar()">CE</button>
+                    <button id="eig" onclick="calculate('=')">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
